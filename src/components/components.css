@@ -1,0 +1,65 @@
+.login, .register {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account {
+    color: #eeeeee;
+}
+
+.account h1 {
+    font-size: 24px;
+}
+
+.account input {
+    background-color: rgb(107, 130, 133);
+    color: white;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    height: 35px;
+    box-sizing: border-box;
+    width: 300px;
+    border-radius: 6px;
+}
+
+.account button {
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 6px;
+    background-color: rgb(49, 142, 242);
+    color: rgb(207, 255, 252);
+    border: 1px solid rgb(111, 229, 255);
+}
+
+.account button:hover {
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+.account button:active {
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+.method {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.method span {
+    color: rgb(91, 168, 255);
+    text-decoration: underline;
+}
+
+.method span:hover {
+    color: rgb(116, 116, 249);
+    cursor: pointer;
+}
+

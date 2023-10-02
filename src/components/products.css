@@ -1,0 +1,108 @@
+.products {
+  overflow: hidden;
+  height: calc(100vh - 60px);
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.products-title {
+  color: #d4defa;
+  position: relative;
+  padding-bottom: 15px;
+  font-size: 22px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgb(173, 171, 171);
+}
+
+.products-title > button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 6px;
+  background-color: rgb(49, 142, 242);
+  color: rgb(207, 255, 252);
+  border: 1px solid rgb(111, 229, 255);
+  padding: 6px 10px;
+}
+.products-title > button:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+.products-title > button:active {
+  filter: brightness(0.8);
+  cursor: pointer;
+}
+
+.product-table {
+    border-top: 1px solid rgb(142, 153, 187);
+    border-left: 1px solid rgb(142, 153, 187);
+    border-right: 1px solid rgb(142, 153, 187);
+}
+
+.product-item {
+    overflow: hidden;
+    height: 40px;
+    border-bottom: 1px solid rgb(142, 153, 187);
+    background-color: rgba(141, 150, 214, 0.137);
+    display: flex;
+    position: relative;
+}
+
+.product-item:nth-child(2n) {
+    background-color: rgb(100, 108, 110);
+}
+
+.product-item > img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    /* border-radius: 100%; */
+    margin-right: 20px;
+}
+
+.product-item > .name {
+    color: white;
+    line-height: 40px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-right: 20px;
+    width: 130px;
+}
+
+.product-item > .price {
+    color: rgb(234, 249, 255);
+    line-height: 40px;
+    margin-right: 20px;
+    font-family: monospace;
+}
+
+.product-item > button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 6px;
+    background-color: rgb(49, 142, 242);
+    color: rgb(207, 255, 252);
+    border: 1px solid rgb(111, 229, 255);
+    padding: 6px 10px;
+}
+
+.product-item > .product-edit {
+    right: 80px;
+}
+.product-item > .product-delete {
+    background-color: rgb(214, 63, 63);
+    color: rgb(207, 25rgb(242, 49, 49));
+    border: 1px solid rgb(255, 141, 141);
+}
+.product-item > button:hover {
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+.product-item > button:active {
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
